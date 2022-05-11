@@ -5,6 +5,7 @@
     --color-primary:hsl(246, 50%, 50%);
     --white:white;
     --text-gray: hsla(0, 0%, 29%);
+    --text-lightgray: hsla(0, 0%, 67%, 1);
 }
 
 
@@ -114,10 +115,52 @@ display: flex;
 align-items: center;
 justify-content: center;
 border-radius: 4px;
+border: none;
 }
 
 
 .dsmovie-form-container {
   padding: 40px 0;
   max-width: 480px ;
+}
+
+
+.dsmovie-form-description{
+
+  background-color: var(--white);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 0 8px 8px;
+}
+
+.dsmovie-form-description h3 {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.dsmovie-form {
+width: 100%;
+}
+
+
+.dsmovie-form-group {
+  margin-bottom: 20px;
+}
+
+
+.dsmovie-form-group label {
+  font-size: 12px;
+  color:  var(--text-lightgray);
+}
+
+
+.dsmovie-form-btn-container{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: space-between; 
 }
