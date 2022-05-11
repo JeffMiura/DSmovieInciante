@@ -6,6 +6,8 @@
     --white:white;
     --text-gray: hsla(0, 0%, 29%);
     --text-lightgray: hsla(0, 0%, 67%, 1);
+    --star-yellow:  hsla(39, 100%, 61%, 1);
+  
 }
 
 
@@ -93,7 +95,7 @@ a, a:hover {
   justify-content: space-between;
   padding: 10px 20px 20px 20px;
   border-radius:  0 0 8px 8px;
-  min-height: 150px;
+  min-height: 220px;
 }
 
 .dsmovie-card-description h3 {
@@ -140,6 +142,32 @@ border: none;
   font-weight: 700;
   margin-bottom: 20px;
 }
+
+.dsmovie-car-description-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.dsmovie-car-description-bottom h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--star-yellow);
+}
+
+.dsmovie-car-description-bottom p {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-lightgray);
+  margin-bottom: 10px;
+}
+
+
+.dsmovie-car-description-bottom img {
+  width: 22px;
+}
+
 
 .dsmovie-form {
 width: 100%;
