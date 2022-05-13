@@ -188,7 +188,6 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .dsmovie-pagination-box p {
@@ -207,20 +206,19 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .dsmovie-pagination-box button img {
-  filter:  brightness(0) saturate(100%) invert(18%) sepia(35%) saturate(6830%) hue-rotate(243deg) brightness(94%) contrast(82%);
-
+  filter: brightness(0) saturate(100%) invert(18%) sepia(35%) saturate(6830%)
+    hue-rotate(243deg) brightness(94%) contrast(82%);
 }
 
 .dsmovie-pagination-box button:disabled {
   border: 1px solid var(--text-lightgray);
-} 
+}
 
 .dsmovie-pagination-box button:disabled img {
-  filter: unset ;
+  filter: unset;
 }
 
 .dsmovi-flip-horizontal {
